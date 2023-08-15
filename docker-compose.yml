@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  atum:
+    container_name: aws-common
+    build: .
+    tty: true
+    volumes:
+      - ./src:/app/src
+    env_file:
+      - .env/aws.env
