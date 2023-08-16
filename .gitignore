@@ -35,4 +35,4 @@ terraform.rc
 
 # .env
 .env/*
-!.env/.keep
+!.env/README.md
