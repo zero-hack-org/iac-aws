@@ -23,7 +23,7 @@ IaC for AWS commons resource
 
 1. Create aws.env file
 
-   - `touch .env/aws.env`
+   - `$ touch .env/aws.env`
 
 2. Edit aws.env for docker bind mount
 
@@ -41,3 +41,34 @@ IaC for AWS commons resource
 | AWSCLI_VERSION     | AWS Cli ([Release](https://raw.githubusercontent.com/aws/aws-cli/v2/CHANGELOG.rst))                        |
 | TERRAFORM_VERSION  | Terraform ([Release](https://releases.hashicorp.com/terraform))                                            |
 | TERRAGRUNT_VERSION | Terragrunt ([Release](https://terragrunt.gruntwork.io/docs/getting-started/supported-terraform-versions/)) |
+
+### Terragrunt plan or apply ...command
+
+How execute terragrunt command
+
+#### 1. Docker build and run container
+
+```bash
+# Or docker-compose up --build
+$ make b_u
+```
+
+### 2. Exec terragrunt container
+
+```bash
+# Or docker-compose exec {container-name} /bin/bash
+$ make e
+```
+
+### 3. Execute terragrunt command
+
+```bash
+
+$ cd /app
+
+# Or terragrunt run-all plan
+$ sh scripts/all_plan.sh
+
+# Or terragrunt run-all apply
+$ sh scripts/all_apply.sh
+```
