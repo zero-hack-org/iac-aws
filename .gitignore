@@ -1,3 +1,4 @@
+# --------------- terraform ---------------
 # Local .terraform directories
 **/.terraform/*
 
@@ -33,6 +34,23 @@ override.tf.json
 .terraformrc
 terraform.rc
 
+# --------------- terragrunt ---------------
+.*.sw?
+.idea
+terragrunt.iml
+vendor
+.terraform
+.vscode
+*.tfstate
+*.tfstate.backup
+*.out
+.terragrunt-cache
+.bundle
+.ruby-version
+.terraform.lock.hcl
+terragrunt
+
+# --------------- other ---------------
 # .env
 .env/*
-!.env/.keep
+!.keep
