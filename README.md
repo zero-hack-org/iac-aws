@@ -1,16 +1,16 @@
 ![Static Badge](https://img.shields.io/badge/Terraform-%235C4EE5)
 ![Static Badge](https://img.shields.io/badge/Terragrunt-%235C4EE5)
 <br/>
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/zero-hack-org/iac-aws-common)
-![GitHub repo size](https://img.shields.io/github/repo-size/zero-hack-org/iac-aws-common)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/zero-hack-org/iac-aws)
+![GitHub repo size](https://img.shields.io/github/repo-size/zero-hack-org/iac-aws)
 <br/>
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 <br/>
 ![Twitter Follow](https://img.shields.io/twitter/follow/y_morimoto_dev?style=social)
 
-## iac-aws-common
+## iac-aws
 
-IaC for AWS commons resource
+IaC for AWS resource
 
 ### Environment Settings
 
@@ -69,9 +69,7 @@ $ make e
 
 $ cd /app
 
-# Or terragrunt run-all plan
-$ sh scripts/all_plan.sh
+$ terragrunt run-all plan
 
-# Or terragrunt run-all apply
-$ sh scripts/all_apply.sh
+$ terragrunt run-all apply
 ```
