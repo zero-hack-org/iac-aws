@@ -9,4 +9,4 @@ u:
 b_u:
 	docker-compose up --build
 e:
-	docker-compose exec atum /bin/bash
+	docker-compose exec client /bin/bash
