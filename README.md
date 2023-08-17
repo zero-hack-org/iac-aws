@@ -1,3 +1,6 @@
+![Static Badge](https://img.shields.io/badge/Terraform-%235C4EE5)
+![Static Badge](https://img.shields.io/badge/Terragrunt-%235C4EE5)
+<br/>
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/zero-hack-org/iac-aws-common)
 ![GitHub repo size](https://img.shields.io/github/repo-size/zero-hack-org/iac-aws-common)
 <br/>
