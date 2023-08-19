@@ -69,6 +69,9 @@ $ make e
 
 $ cd /app
 
+# cd common, sandbox
+$ cd src/common
+
 $ terragrunt run-all plan
 
 $ terragrunt run-all apply
